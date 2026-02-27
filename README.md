@@ -1,16 +1,40 @@
-# React + Vite
+# CineScope
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineScope adalah aplikasi web pencarian film berbasis React yang menggunakan TMDB API.  
+Aplikasi memungkinkan pengguna mencari film, melihat detail, dan menyimpan film favorit.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Browse trending movies
+- Search movies
+- Movie detail page
+- Favorite movies (localStorage)
+- Responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1918" height="977" alt="Screenshot 2026-02-27 142653" src="https://github.com/user-attachments/assets/186e1d91-60bd-4337-a989-6bd0856d5008" />
+
+---
+
+## Tech Stack
+
+- React (Vite)
+- Tailwind CSS v4
+- React Router DOM
+- Axios
+- TMDB API
+
+---
+
+## Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/aufikh1dayat/cinescope.git
+cd cinescope
